@@ -1,0 +1,264 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+    font-family: "Bruno Ace SC", sans-serif;
+	line-height: 1.5;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+span {
+    display: block;
+    text-align: right;
+}
+
+.text-primary {
+    color: #00FFA3;
+
+}
+
+.header {
+    background: black;
+    color: #D1D1D1;
+    padding: 40px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner {
+    background: black;
+    color: white;
+}
+
+.introduction {
+    background-image: url("/img/background-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    padding: 160px 0;
+}
+
+.introduction-content{
+    width: 526px;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.about {
+    padding: 160px;
+}
+
+.aboutList{
+    width: 636px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.aboutList li {
+    border: #E3E3E3 solid 1px;
+    width: 48%;
+    box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.aboutMe {
+    width: 526px;
+}
+
+.h1 {
+    font-size: 128px;
+}
+
+.h2 {
+    font-size: 64px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.ai-center{
+    align-items: center;
+}
+
+.ai-start{
+    align-items: start;
+}
+
+.banner img {
+    margin-right: 12px;
+}
+
+.banner-content {
+    margin-left: 12px;
+}
+
+.contact {
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    padding: 96px 0;
+}
+
+.socialMedia {
+    border-radius: 40px;
+}
+
+.project {
+    padding: 160px 0;
+}
+
+.footer {
+    background: black;
+    text-align: center;
+    height: Hug (104px)px;
+    
+}
+
+.footer p {
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    padding: 40px 312px 40px 312px;
+}
+
+.projectTitle {
+    width: 746px;
+    margin-left: auto;
+}
+
+.socialMedia li {
+    margin-right: 20px;
+}
+
+.socialMedia li:hover {
+    box-shadow: 0px 0px 16px 3px #9094FFE5;
+    transition: 1S;
+    border-radius: 40px;
+}
+.btn {
+    padding: 12px 24px;
+    border-radius: 32px;
+}
+
+.btn-white {
+    background: white;
+    color: black;
+}
+
+.btn-black {
+    background: black;
+    color: white;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.justify-content-end{
+    justify-content: flex-end;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-content-around {
+    justify-content: space-around;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.mb-34{
+    margin-bottom: 34px;
+}
+
+.mb-28 {
+    margin-bottom: 28px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.contactSign {
+    color: white;
+    width: 657px;
+    height: 100px;
+    top: 127px;
+    left: 312px;
+    gap: 0px;
+    opacity: 0px;
+}
+
